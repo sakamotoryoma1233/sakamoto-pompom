@@ -1,0 +1,49 @@
+#game-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.choice {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 32px; /* Updated font size */
+    font-family: 'Hiragino Maru Gothic ProN', 'Meiryo UI', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #cccccc;
+    border-radius: 30px; /* More rounded */
+    color: #333;
+    text-align: center;
+    width: 80%; /* Wider buttons for better readability */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Light shadow for 3D effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.choice:hover {
+    background-color: #f8f8f8; /* Slightly darker on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 24px; /* Larger font size for feedback */
+    color: black; /* Default text color */
+}
+
+#results-container {
+    margin-top: 30px;
+}
+
+#results-container h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+#time-taken {
+    font-size: 24px; /* Larger font size for better visibility */
+}

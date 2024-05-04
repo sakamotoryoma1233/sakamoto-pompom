@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>乗数マスター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>乗数クイズ</h1>
+        <label for="num-questions">問題数を選択 (Select number of questions):</label>
+        <select id="num-questions">
+            <option value="5">5問 (5 questions)</option>
+            <option value="10">10問 (10 questions)</option>
+            <option value="15">15問 (15 questions)</option>
+            <option value="20">20問 (20 questions)</option>
+            <option value="25">25問 (25 questions)</option>
+            <option value="30">30問 (30 questions)</option>
+        </select>
+        <button id="start-button">スタート (Start)</button>
+        <div id="question"></div>
+        <div id="choices-container"></div>
+        <div id="feedback"></div>
+        <div id="time-taken"></div>
+        <div id="results-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
